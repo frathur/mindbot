@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web-Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <h2>MindBoT</h2>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="home-content">
+                <h1>Welcome to Mindbot</h1>
+                <p>Learn web development step by step with hands-on projects and practical examples.</p>
+                <div class="button-group">
+                    <button class="btn btn-primary">Subscribe</button>
+                    <button class="btn btn-secondary">Join Our Community</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="ai-spark.png" alt="AI Innovation">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="best-for-home.jpg" alt="About Mindbot">
+                </div>
+                <div class="about-text">
+                    <p>We are passionate about teaching web development to beginners. Our mission is to make coding accessible and fun for everyone.</p>
+                    <p>Whether you're just starting out or looking to enhance your skills, we have resources and tutorials designed to help you succeed.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="ai-spark.png" alt="AI Innovation">
+                    </div>
+                    <h3>AI Innovation</h3>
+                    <p>Beautiful and responsive designs that make your website stand out.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="bulb-idea.png" alt="Creative Ideas">
+                    </div>
+                    <h3>Creative Ideas</h3>
+                    <p>Clean, efficient code that brings your ideas to life.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="stem.png" alt="STEM Learning">
+                    </div>
+                    <h3>STEM Learning</h3>
+                    <p>Websites that look great on all devices and screen sizes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop" alt="Coding workspace">
+                    <div class="gallery-overlay">
+                        <span>Workspace</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop" alt="Laptop coding">
+                    <div class="gallery-overlay">
+                        <span>Development</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=600&h=400&fit=crop" alt="Team meeting">
+                    <div class="gallery-overlay">
+                        <span>Collaboration</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?w=600&h=400&fit=crop" alt="UI Design">
+                    <div class="gallery-overlay">
+                        <span>UI Design</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=400&fit=crop" alt="Team working">
+                    <div class="gallery-overlay">
+                        <span>Teamwork</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="Analytics">
+                    <div class="gallery-overlay">
+                        <span>Analytics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <form action="" method="post">
+                    <div class="form-group">
+                        <label for="username">Username<span>*</span></label>
+                        <input type="text" id="username" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mail">Email<span>*</span></label>
+                        <input type="email" name="mail" id="mail" placeholder="example@gmail.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Message</label>
+                        <textarea name="comment" id="comment" placeholder="Write your message here..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 All Rights Reserved. Made by Mindbot Session 1</p>
+    </footer>
+</body>
+</html>
